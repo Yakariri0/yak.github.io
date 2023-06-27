@@ -1,0 +1,65 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;  
+}
+html,
+body {
+    height: 100%;
+}
+
+body{
+    background: rgb(255, 132, 100);
+    background: linear-gradient(
+        90deg,
+        rgba(255,132,100,1)0%,
+        rgba(253,150,165,1)100%,
+    )
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.card-body{
+    background:#fff ;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+.card-body h1{
+    margin-bottom: 15px;
+    font-size: 70px;
+}
+.card-btn button{
+    border-radius: 5px;
+    color: #262626;
+    padding: 10px 35px;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button#Decrease {
+    background: #fda5a5;
+}
+button#Decrease:hover{
+    background: #ff2600;
+    color: #fff;
+}
+button#Reset {
+    background: #fcdbab;
+}
+button#Reset:hover{
+    background: #f79f1f;
+    color: #fff;
+}
+button#Increase {
+    background: #b1ffc9;
+}
+button#Increase:hover{
+    background: #00ff40;
+    color: #fff;
+}
